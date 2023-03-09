@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    background-color: #8ed1fc;
+    border-radius: 6px;
+}
+
+.dot:hover {
+    fill: #ff6900 !important;
+}
+
+#tooltip {
+    background-color: rgb(255,245,203);
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+
+#title{
+    font-size: 30px;
+    font-family: Optima, sans-serif;
+    font-weight: 625;
+}
